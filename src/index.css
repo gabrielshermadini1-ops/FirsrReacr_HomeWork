@@ -1,0 +1,32 @@
+/* index.css - გლობალური საბაზისო სტილები */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #f1f5f9;
+  background-color: #080e1e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at 50% 0%, #152549 0%, #0c152b 50%, #060b18 100%);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+}
